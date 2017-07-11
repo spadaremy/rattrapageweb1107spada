@@ -116,7 +116,7 @@
     public function __construct() {}
     }
 
-    class DataAccess {}
+    class DataAccess implements ISavable {}
     // Attributs
 
     // Constantes
@@ -125,8 +125,9 @@
     public function __construct() {}
     //public function get_name(){
 
-    }
-    }
+   interface ISavable {
+   public function getGame();
+}
 
 
    
